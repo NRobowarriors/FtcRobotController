@@ -51,7 +51,7 @@ import com.qualcomm.robotcore.util.Range;
  * Remove or comment out the @Disabled line to add this OpMode to the Driver Station OpMode list
  */
 
-@TeleOp(name="Basic: Iterative OpMode", group="Iterative OpMode")
+@TeleOp(name="CB - 4", group="Iterative OpMode")
 
 public class Basic extends OpMode
 {
@@ -146,7 +146,7 @@ public class Basic extends OpMode
            // rightBackPower  = gamepad1.b ? 1.0 : 0.0;  // B gamepad
 
 
-        double powerPrecentage = .75;
+        double powerPrecentage = .3;
         frontLeftMotor.setPower(-leftFrontPower * powerPrecentage);
         frontRightMotor.setPower(rightFrontPower * powerPrecentage);
         backLeftMotor.setPower(-leftBackPower * powerPrecentage);
