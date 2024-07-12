@@ -97,7 +97,7 @@ public class BasicdrivE extends LinearOpMode {
         // Reverse the direction (flip FORWARD <-> REVERSE ) of any wheel that runs backward
         // Keep testing until ALL the wheels move the robot forward when you push the left joystick forward.
         left_front_drive.setDirection(DcMotor.Direction.REVERSE);
-        left_back_drive.setDirection(DcMotor.Direction.FORWARD);
+        left_back_drive.setDirection(DcMotor.Direction.REVERSE);
         right_front_drive.setDirection(DcMotor.Direction.REVERSE);
         right_back_drive.setDirection(DcMotor.Direction.FORWARD);
 
