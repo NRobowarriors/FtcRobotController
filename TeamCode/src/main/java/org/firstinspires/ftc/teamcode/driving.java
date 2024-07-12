@@ -103,8 +103,8 @@ public class driving extends LinearOpMode {
             // rightPower = -gamepad1.right_stick_y ;
 
             // Send calculated power to wheels
-            leftDrive.setPower(leftPower);
-            rightDrive.setPower(rightPower);
+            leftDrive.setPower(leftPower * 0.6);
+            rightDrive.setPower(rightPower * 0.6);
 
             // Show the elapsed game time and wheel power.
             telemetry.addData("Status", "Run Time: " + runtime.toString());
